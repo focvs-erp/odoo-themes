@@ -1,0 +1,1 @@
+# odoo-labs-2
