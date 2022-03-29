@@ -1,8 +1,8 @@
-$primary_accent: #556ee6 !default;
-$secondary_accent: #334332 !default;
-$inverse_accent: #ffffff !default;
-$o-kanban-color-border-width: 8px;
-$selected_row: #ffffff !default;
-$bg_white: #ffffff !default;
-$f_color: #555b6d !default;
-$primary_hover: #485ec4 !default;
+$primary_accent: #556ee6  !default; // Altera a cor dos botões 'Criar, loading, inst'
+$secondary_accent: #334332 !default; // Não descoberto
+$inverse_accent: #ffffff  !default; // prenche o fundo dos formularios
+$o-kanban-color-border-width: 8px; // borda do botão
+$selected_row: #ffffff !default; // não descoberto
+$bg_white: transparent; // Altera a cor na parte de cima onde tem texto
+$f_color: #555b6d  !default; // Altera a cor dos menus dentro do formulário
+$primary_hover: #485ec4 !default; // altera a cor de quando deixamos o mause em cima do botão

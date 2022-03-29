@@ -15,7 +15,7 @@ margin-right: 30px !important;
 color: #ffffff !important;
 }
 .o_main_navbar, .btn-primary, .btn-primary:active, .o_searchview_facet_label {
-  background-color: $primary_accent !important;
+  background-color: $bg_white !important;
   color: $inverse_accent !important;
 }
 .o_search_panel_section_icon {
@@ -44,11 +44,11 @@ color: #ffffff !important;
 }
 
 .o_main_navbar > .o_menu_sections > li > a:hover, .o_main_navbar > .o_menu_systray > li > a:hover, .o_main_navbar > .o_menu_sections > li.show > a, .o_main_navbar > .o_menu_systray > li.show > a {
-  background-color: lighten($primary_accent, 10%) !important;
+  background-color: lighten($bg_white, 10%) !important;
 }
 
 .o_main_navbar > .o_menu_apps > li > a:hover, .o_main_navbar > .o_menu_apps > li > a:active {
-  background-color: lighten($primary_accent, 10%) !important;
+  background-color: lighten($bg_white, 10%) !important;
 }
 
 .o_main_navbar > .o_menu_apps > .dropdown.show > .dropdown-menu.show {
