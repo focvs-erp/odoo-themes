@@ -36,7 +36,7 @@ background: $bg_white !important;
   border-bottom: 0px solid #5f5e97 !important;
   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
   box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
-  background-color: #285FAD !important;
+  background: linear-gradient(90deg, #6600FF, #285FAD, #33C4FF) !important;
 }
 
 .top_heading {
@@ -367,7 +367,17 @@ button.fa.fa-external-link.btn.btn-secondary.o_external_button {
 }
 tr.o_data_row {
     font-size: 15px;
+    color: #285FAD;
 }
+
+th.o_column_sortable{
+    color: #285FAD;
+}
+
+div.o_caption{
+    color: #285FAD !important;
+}
+
 .o_list_view .table-responsive .table thead tr:nth-child(1) th {
     position: sticky;
     top: 0;
@@ -1502,8 +1512,13 @@ div.dropdown-menu.bootstrap-datetimepicker-widget{
 
 
 .o_home_menu_background {
-    background: #000 !important;
-    background-size: auto, auto;
+//     background: #000 !important;
+    background-color: #FFFFFF;
+    background-image: url('LOGO_FOCVS.svg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 10%;
+    background-size: 250px, 250px;
 }
 
 .o_group_buttons .btn {
