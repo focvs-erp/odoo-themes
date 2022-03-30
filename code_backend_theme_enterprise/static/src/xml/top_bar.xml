@@ -5,20 +5,21 @@
             <nav class="o_main_navbar">
                 <div class="top_heading">
                     <ul class="o_menu_apps">
-                        <a id="openSidebar" style="display: block; cursor: pointer;">
-                            <i class="fa fa-bars fa-lg"/>
+                        <a id="openSidebar" style="display: block; cursor: pointer; color: #FFFFFF">
+                            <i class="fa fa-bars fa-lg" />
                         </a>
-                        <a id="closeSidebar" style="display: none; cursor: pointer;">
-                            <i class="fa fa-bars fa-lg"/>
+                        <a id="closeSidebar" style="display: none; cursor: pointer; color: #FFFFFF">
+                            <i class="fa fa-bars fa-lg" />
                         </a>
                     </ul>
-                    <a class="o_menu_brand" role="button"/>
+                    <a class="o_menu_brand" role="button" />
                 </div>
-                <a href="#" class="fa fa-th o_menu_toggle" title="Applications"
-                    aria-label="Applications" accesskey="h"/>
-                <ul class="o_menu_sections" role="menu"/>
-                <ul class="o_menu_systray topbar_icon" role="menu"/>
-                <button type="button" class="fa fa-bars float-right d-block d-md-none o_mobile_menu_toggle" title="Toggle menu" aria-label="Toggle menu"/>
+                <a href="#" class="fa fa-th o_menu_toggle" title="Applications" aria-label="Applications"
+                    accesskey="h" />
+                <ul class="o_menu_sections" role="menu" />
+                <ul class="o_menu_systray topbar_icon" role="menu" />
+                <button type="button" class="fa fa-bars float-right d-block d-md-none o_mobile_menu_toggle"
+                    title="Toggle menu" aria-label="Toggle menu" />
             </nav>
         </xpath>
     </t>
