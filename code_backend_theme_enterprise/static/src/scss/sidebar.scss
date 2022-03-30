@@ -2,7 +2,7 @@
     height: calc(100% - 0%);
 	position: fixed;
     top: 0px;
-    background-color: #2a3042;
+    background-color: #F5F5F5;
     display: none;
     width: 200px;
     overflow-y: scroll;
@@ -74,7 +74,7 @@
     cursor: pointer;
     overflow: hidden;
     padding: 8px 10px 8px 25px;
-    color: #ffffff;
+    color: #285FAD;
     font-size: 13px;
     transition:.3s all;
 }
@@ -83,7 +83,7 @@
     color: #fff;
 }
 .sidebar_panel .nav-link {
-	opacity: .5;
+// 	opacity: .5;
     transition:.3s all;
 }
 .sidebar_panel .sidebar a.nav-link.active {
