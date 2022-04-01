@@ -17,6 +17,16 @@
 			</div>
             <h6 class="sidebar_head">MENU</h6>
             <ul class="sidebar_menu">
+                <li>
+                    <a role="menuitem" t-attf-href="">
+                        <img class="sidebar_img"
+                            t-attf-src="apps.png"/>
+                        <span class="sidebar_app_name">
+							<label>HOME</label>
+						</span>       
+		             </a>
+                  </li>
+                
 	            <t t-foreach="widget.getApps()" t-as="app">
 		            <li>
 		            	<a role="menuitem" t-attf-href="#menu_id=#{app.menuID}"

@@ -194,39 +194,39 @@ background: $bg_white !important;
     border-color: #4053ad !important;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
-    color: #fff;
-    background-color: #485ec4 !important;
-    border-color: #4458b8 !important;
+    color: #285FAD;
+    background-color: #F5F5F5 !important;
+    border-color: #F5F5F5 !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
 .btn-primary i,.btn-primary span {
-    color: #fff !important;
+    color: #285FAD !important;
 }
 .btn-secondary {
-    color: #fff !important;
-    background-color: #74788d !important;
-    border-color: #74788d !important;
+    color: #285FAD !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
 }
 .btn-secondary:hover {
-    color: #fff !important;
-    background-color: #636678 !important;
-    border-color: #5d6071 !important;
+    color: #285FAD !important;
+    background-color: #F5F5F5 !important;
+    border-color: #F5F5F5 !important;
 }
 .btn-secondary:active {
-    color: #fff;
-    background-color: #5d6071 !important;
-    border-color: #575a6a !important;
+    color: #285FAD;
+    background-color: #F5F5F5 !important;
+    border-color: #F5F5F5 !important;
 }
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
-    color: #fff;
-    background-color: #636678 !important;
-    border-color: #5d6071 !important;
+    color: #285FAD;
+    background-color: #F5F5F5 !important;
+    border-color: #F5F5F5 !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(137,140,158,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(137,140,158,.5) !important;
 }
 .btn-secondary i,.btn-secondary span {
-    color: #fff !important;
+    color: #285FAD !important;
 }
 .btn-info {
     color: #fff !important;
@@ -312,7 +312,7 @@ button[name="action_uninstall"]:focus {
 }
 .o_cp_bottom_right .btn-secondary {
     background: #fff;
-    border-color: #dddddd !important;
+    border-color: transparent !important;
     margin-right: 5px !important;
     padding : 6px 8px !important;
 }
@@ -771,7 +771,7 @@ input {
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da !important;
+    border-bottom: 2px solid #285FAD !important;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -781,7 +781,7 @@ input {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
     box-shadow: none !important;
-    margin-bottom:10px !important;
+//     margin-bottom:10px !important;
 }
 select {
     width: 100%;
@@ -818,8 +818,8 @@ select {
     pointer-events: none;
 }
 .o_input {
-    border: solid 1px #ced4da !important;
-    color: #495057 !important;
+    border-bottom: solid 2px #285FAD !important;
+    color: #285FAD !important;
 }
 .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value,
 .o_form_view .oe_button_box .btn.oe_stat_button > span .o_stat_value {
