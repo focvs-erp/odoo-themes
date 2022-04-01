@@ -746,9 +746,6 @@ ul.sidebar_menu .nav-link:hover,ul.sidebar_menu .nav-link:focus {
 // TAbs End
 
 //font color
-.o_horizontal_separator {
-    color: #495057 !important;
-}
 .btn-link {
     font-weight: 400;
     color: $primary_accent !important;
@@ -1446,7 +1443,25 @@ div.dropdown-menu.bootstrap-datetimepicker-widget{
 }
 //groupby color ends
 
+label.o_form_label.o_required_modifier{
+    color: #285FAD !important;
+}
 
+label.o_form_label.o_user_select_none{
+    color: #285FAD !important;
+}
+
+label.o_form_label{
+    color: #285FAD !important;
+}
+
+span.o_form_label{
+    color: #285FAD !important;
+}
+
+.o_horizontal_separator {
+    color: #285FAD !important;
+}
 
 
 //Mee
