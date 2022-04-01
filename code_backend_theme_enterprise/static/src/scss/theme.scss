@@ -13,6 +13,14 @@ a.btn {
     height: auto !important;
 }
 
+.o_home_menu.o_apps.o_app.o_app_icon {
+    background-size: contain;
+}
+
+div.o_app_icon{
+    background-size: contain !important;
+}
+
 .o_main_navbar, .o_searchview_facet_label {
   background-color: transparent !important;
   color: $f_color !important;
