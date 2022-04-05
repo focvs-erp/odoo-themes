@@ -23,7 +23,7 @@ div.o_app_icon{
 
 .o_main_navbar, .o_searchview_facet_label {
   background-color: transparent !important;
-  color: $f_color !important;
+  color: #285FAD !important;
   border:1px !important;
 }
 .o_menu_sections, .o_menu_systray, .o_web_client > header{
@@ -100,7 +100,7 @@ background: $bg_white !important;
 }
 
 .o_searchview {
-    border: 1px solid #ddd;
+    border-bottom: solid 2px #285FAD !important;
     height: 38px;
     padding-left: 12px;
     padding-right: 20px;
@@ -117,11 +117,16 @@ background: $bg_white !important;
     right: 8px;
 }
 .o_searchview .o_searchview_facet {
-    border: 1px solid #ddd;
-    background: #f8f8fb;
-    border-radius: 10px;
+    border: 1px solid #285FAD;
+    background: #FFF;
+//     border-radius: 2px;
     padding: 0 4px;
 }
+
+span.o_facet_value{
+    color: #285FAD;
+}
+
 .o_cp_bottom_right  span.o_dropdown_title {
     color: #555b6d;
 }
@@ -193,23 +198,23 @@ background: $bg_white !important;
 }
 .btn-primary:hover {
     color: #fff !important;
-    background-color: $primary_hover !important;
-    border-color: #4458b8 !important;
+    background-color: #778cf2 !important;
+    border-color: #778cf2 !important;
 }
 .btn-primary:active {
     color: #fff !important;
-    background-color: #4458b8 !important;
-    border-color: #4053ad !important;
+    background-color: #778cf2 !important;
+    border-color: #778cf2 !important;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #285FAD;
-    background-color: #F5F5F5 !important;
-    border-color: #F5F5F5 !important;
+    background-color: #778cf2 !important;
+    border-color: #778cf2 !important;
     -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
 .btn-primary i,.btn-primary span {
-    color: #285FAD !important;
+    color: #FFF !important;
 }
 .btn-secondary {
     color: #285FAD !important;
@@ -234,7 +239,7 @@ background: $bg_white !important;
     box-shadow: 0 0 0 .15rem rgba(137,140,158,.5) !important;
 }
 .btn-secondary i,.btn-secondary span {
-    color: #285FAD !important;
+    color: #285FAD;
 }
 .btn-info {
     color: #fff !important;
@@ -249,29 +254,34 @@ background: $bg_white !important;
 button[name="action_cancel"],
 button[name="button_cancel"],
 button[special="cancel"] {
-    color: #fff !important;
-    background-color: #f46a6a !important;
-    border-color: #f46a6a !important;
+    background-color: #FFF !important;
+    border-color: #FFF !important;
+    color: #000 !important;
 }
+
+button[special="cancel"] {
+    color: #000 !important;
+}
+
 button[name="action_cancel"]:hover,
 button[name="button_cancel"]:hover,
 button[special="cancel"]:hover {
-    background-color: #cf5a5a !important;
-    border-color: #c35555 !important;
+    background-color: #FFF !important;
+    border-color: #FFF !important;
 }
 button[name="action_cancel"]:active,
 button[name="button_cancel"]:active,
 button[special="cancel"]:active {
-    color: #fff !important;
-    background-color: #c35555 !important;
-    border-color: #b75050 !important;
+    color: #000 !important;
+    background-color: #FFF !important;
+    border-color: #FFF !important;
 }
 button[name="action_cancel"]:focus,
 button[name="button_cancel"]:focus,
 button[special="cancel"]:focus {
-    color: #fff !important;
-    background-color: #cf5a5a !important;
-    border-color: #c35555 !important;
+    color: #000 !important;
+    background-color: #FFF !important;
+    border-color: #FFF !important;
     -webkit-box-shadow: 0 0 0 0.15rem rgba(246,128,128,.50) !important;
     box-shadow: 0 0 0 0.15rem rgba(246,128,128,.50) !important;
 }
