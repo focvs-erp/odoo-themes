@@ -17,8 +17,24 @@ a.btn {
     background-size: contain;
 }
 
+a.fa.fa-th.o_menu_toggle{
+    color: #FFF !important;
+}
+a.fa.fa-th.o_menu_toggle:hover{
+    color: #285FAD !important;
+}
+
+a.fa.o_menu_toggle.fa-chevron-left{
+    color: #FFF !important;
+}
+
+a.fa.o_menu_toggle.fa-chevron-left:hover{
+    color: #285FAD !important;
+}
+
 div.o_app_icon{
     background-size: contain !important;
+    box-shadow: none !important;
 }
 
 .o_main_navbar, .o_searchview_facet_label {
