@@ -1837,13 +1837,17 @@ padding-left: 3px !important;
   }
 }
 
-//TODO: TESTE LOADING
+// Altera cor do loading - AX4B
 .o_loading {
   background-color: #556ee6;
   color: white;
   padding: 4px;
 }
 
+//Remove menu padrão versão community - AX4B
+li.dropdown {
+  display: none;
+}
 
 .o_MobileMessagingNavbar_tab.o-active {
   color: #556ee6;

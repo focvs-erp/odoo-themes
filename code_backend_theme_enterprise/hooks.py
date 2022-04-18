@@ -54,6 +54,10 @@ def test_pre_init_hook(cr):
                 img_path = get_module_resource(
                     'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
+            if menu.name == 'Agreements':
+                img_path = get_module_resource(
+                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'agreement.png')
+                menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Contacts':
                 img_path = get_module_resource(
                     'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'contacts.png')
@@ -286,6 +290,10 @@ def test_post_init_hook(cr, registry):
             if menu.name == 'Public Budget':
                 img_path = get_module_resource(
                     'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
+                menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
+            if menu.name == 'Agreements':
+                img_path = get_module_resource(
+                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'agreement.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Contacts':
                 img_path = get_module_resource(

@@ -7,7 +7,8 @@ odoo.define('code_backend_theme_enterprise.SidebarMenu', function (require) {
  */
 
     const config = require('web.config');
-    const Menu = require("web_enterprise.Menu");
+    //Web.Menu versão community - AX4B
+    const Menu = require("web.Menu");
     const SideBar = require("code_backend_theme_enterprise.SideBar");
 
     Menu.include({
