@@ -21,9 +21,9 @@
 #############################################################################
 
 {
-    "name": "Code Backend Theme V14 Enterprise",
-    "summary": "Minimalist and elegant backend theme for Odoo 14 Enterprise",
-    "description": """Minimalist and elegant backend theme for Odoo 14 Backend Theme Enterprise, Enterprise Theme, Backend Theme, Enterprise Backend Theme, V14 Theme""",
+    "name": "Code Backend Theme V14 Community",
+    "summary": "Minimalist and elegant backend theme for Odoo 14 Community",
+    "description": """Minimalist and elegant backend theme for Odoo 14 Backend Theme Community, Community Theme, Backend Theme, Enterprise Backend Theme, V14 Theme""",
     "category": "Themes/Backend",
     "version": "14.0.1.0.0",
     'author': 'Cybrosys Techno Solutions',

@@ -1,4 +1,4 @@
-odoo.define('code_backend_theme_enterprise.fields', function (require) {
+odoo.define('code_backend_theme_community.fields', function (require) {
     "use strict";
 
     var basic_fields = require("web.basic_fields");

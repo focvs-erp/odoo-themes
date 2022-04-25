@@ -1,4 +1,4 @@
-odoo.define('code_backend_theme_enterprise.SidebarMenu', function (require) {
+odoo.define('code_backend_theme_community.SidebarMenu', function (require) {
 "use strict";
 
 /**
@@ -9,7 +9,7 @@ odoo.define('code_backend_theme_enterprise.SidebarMenu', function (require) {
     const config = require('web.config');
     //Web.Menu versão community - AX4B
     const Menu = require("web.Menu");
-    const SideBar = require("code_backend_theme_enterprise.SideBar");
+    const SideBar = require("code_backend_theme_community.SideBar");
 
     Menu.include({
         start() {

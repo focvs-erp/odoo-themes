@@ -5,11 +5,11 @@
 			<div class="sidebar_panel" id="sidebar_panel" />
 		</t>
 	</t>
-	<t t-name="code_backend_theme_enterprise.SideBar">
+	<t t-name="code_backend_theme_community.SideBar">
 		<div class="sidebar">
 			<div class="sidebar_close">
 				<a id="closeSidebar" style="cursor: pointer;">
-					<img src="/code_backend_theme_enterprise/static/src/img/icons/close.png" />
+					<img src="/code_backend_theme_community/static/src/img/icons/close.png" />
 				</a>
 			</div>
 			<div class="sidebar_logo">

@@ -36,228 +36,228 @@ def test_pre_init_hook(cr):
         try:
             if menu.name == 'Apps':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'apps.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'apps.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Invoicing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'invoicing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'invoicing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Financial':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'financial.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'financial.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Patrimony':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'patrimony.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'patrimony.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Public Budget':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Agreements':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'agreement.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'agreement.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Contacts':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'contacts.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'contacts.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Link Tracker':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'link.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'link.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Dashboards':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'dashboard.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'dashboard.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Sales':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'sales.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'sales.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Accounting':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'accounting.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'accounting.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Inventory':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'inventory.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'inventory.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Purchase':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'purchase.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'purchase.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Calendar':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'calendar.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'calendar.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'CRM':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'crm.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'crm.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Note':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'notes.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'notes.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Website':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'website.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'website.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Point of Sale':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'pos.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'pos.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Manufacturing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'manufacturing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'manufacturing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Repairs':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'repair.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'repair.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Email Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'email-marketing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'email-marketing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'SMS Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'sms.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'sms.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Project':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'project.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'project.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Surveys':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'survey.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'survey.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Employees':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'employee.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'employee.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Recruitment':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'recruitment.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'recruitment.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Attendances':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'attendance.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'attendance.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Time Off':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'time-off.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'time-off.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Expenses':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'expense.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'expense.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Maintenance':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'maintenance.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'maintenance.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Live Chat':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'chat.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'chat.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Lunch':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'restaurant.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'restaurant.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Fleet':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'traffic.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'traffic.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Timesheets':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'timesheet.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'timesheet.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Events':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'token.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'token.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'eLearning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'elearning.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'elearning.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Members':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'user.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'user.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
 
             if menu.name == 'Subscriptions':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'subscription.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'subscription.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Documents':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'documents.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'documents.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Rental':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'rental.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'rental.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Marketing Automation':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'marketing_automation.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'marketing_automation.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'IoT':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'iot.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'iot.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Helpdesk':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'help.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'help.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Planning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'planning.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'planning.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Appraisal':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'appraisal.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'appraisal.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Consolidation':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'consolidation.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'consolidation.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Payroll':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'payroll.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'payroll.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Barcode':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'barcode.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'barcode.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Quality':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'quality.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'quality.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'PLM':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'plm.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'plm.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Field Service':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'field-service.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'field-service.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Data Cleaning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'clean-code.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'clean-code.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Approvals':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'approvals.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'approvals.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Referrals':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'referrals.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'referrals.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Discuss':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'discuss.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'discuss.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Social Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'like.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'like.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
         except:
             continue
@@ -273,228 +273,228 @@ def test_post_init_hook(cr, registry):
         try:
             if menu.name == 'Apps':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'apps.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'apps.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Invoicing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'invoicing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'invoicing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Financial':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'financial.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'financial.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Patrimony':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'patrimony.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'patrimony.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Public Budget':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'orcamento_publico.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Agreements':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'agreement.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'agreement.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Contacts':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'contacts.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'contacts.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Link Tracker':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'link.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'link.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Dashboards':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'dashboard.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'dashboard.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Sales':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'sales.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'sales.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Accounting':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'accounting.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'accounting.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Inventory':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'inventory.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'inventory.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Purchase':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'purchase.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'purchase.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Calendar':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'calendar.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'calendar.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'CRM':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'crm.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'crm.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Note':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'notes.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'notes.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Website':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'website.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'website.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Point of Sale':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'pos.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'pos.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Manufacturing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'manufacturing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'manufacturing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Repairs':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'repair.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'repair.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Email Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'email-marketing.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'email-marketing.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'SMS Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'sms.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'sms.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Project':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'project.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'project.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Surveys':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'survey.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'survey.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Employees':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'employee.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'employee.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Recruitment':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'recruitment.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'recruitment.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Attendances':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'attendance.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'attendance.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Time Off':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'time-off.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'time-off.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Expenses':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'expense.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'expense.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Maintenance':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'maintenance.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'maintenance.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Live Chat':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'chat.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'chat.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Lunch':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'restuarant.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'restuarant.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Fleet':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'traffic.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'traffic.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Timesheets':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'timesheet.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'timesheet.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Events':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'token.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'token.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'eLearning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'elearning.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'elearning.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Members':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'user.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'user.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
 
             if menu.name == 'Subscriptions':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'subscription.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'subscription.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Documents':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'documents.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'documents.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Rental':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'rental.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'rental.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Marketing Automation':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'marketing_automation.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'marketing_automation.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'IoT':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'iot.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'iot.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Helpdesk':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'help.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'help.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Planning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'planning.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'planning.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Appraisal':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'appraisal.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'appraisal.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Consolidation':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'consolidation.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'consolidation.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Payroll':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'payroll.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'payroll.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Barcode':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'barcode.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'barcode.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Quality':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'quality.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'quality.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'PLM':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'plm.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'plm.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Field Service':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'field-service.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'field-service.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Data Cleaning':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'clean-code.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'clean-code.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Approvals':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'approvals.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'approvals.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Referrals':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'referrals.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'referrals.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Discuss':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'discuss.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'discuss.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
             if menu.name == 'Social Marketing':
                 img_path = get_module_resource(
-                    'code_backend_theme_enterprise', 'static', 'src', 'img', 'icons', 'like.png')
+                    'code_backend_theme_community', 'static', 'src', 'img', 'icons', 'like.png')
                 menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
         except:
             continue

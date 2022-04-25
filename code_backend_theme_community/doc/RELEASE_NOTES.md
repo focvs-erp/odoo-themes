@@ -1,4 +1,4 @@
-## Module <code_backend_theme_enterprise>
+## Module <code_backend_theme_community>
 
 #### 02.08.2021
 #### Version 14.0.1.0.0

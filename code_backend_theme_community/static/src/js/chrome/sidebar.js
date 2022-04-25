@@ -1,4 +1,4 @@
-odoo.define('code_backend_theme_enterprise.SideBar', function (require) {
+odoo.define('code_backend_theme_community.SideBar', function (require) {
     "use strict";
 
     var Widget = require('web.Widget');
@@ -6,7 +6,7 @@ odoo.define('code_backend_theme_enterprise.SideBar', function (require) {
         events: _.extend({}, Widget.prototype.events, {
             'click .nav-link': '_onAppsMenuItemClicked',
         }),
-        template: "code_backend_theme_enterprise.SideBar",
+        template: "code_backend_theme_community.SideBar",
 
         init: function (parent, menuData) {
             this._super.apply(this, arguments);
