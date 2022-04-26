@@ -10,7 +10,7 @@ var config = require('web.config');
 var core = require('web.core');
 var Dialog = require('web.Dialog');
 var UserMenu = require('web.UserMenu');
-
+ 
 var _t = core._t;
 var QWeb = core.qweb;
 
