@@ -1849,6 +1849,11 @@ li.dropdown {
   display: none;
 }
 
+//Campos opcionais na Tree - AX4B 
+.o_list_view .o_optional_columns_dropdown_toggle {
+  color: #556ee6;
+  z-index: 1000;
+}
 .o_MobileMessagingNavbar_tab.o-active {
   color: #556ee6;
 }
