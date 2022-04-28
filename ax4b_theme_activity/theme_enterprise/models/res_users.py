@@ -19,7 +19,7 @@ class Users(models.Model):
         icons = map(
             lambda icon: icon.split(
                 'ax4b_activity')[1], glob(
-                (str(Path(get_module_resource('code_backend_theme_enterprise')) /
+                (str(Path(get_module_resource('ax4b_theme')) /
                      'static/src/img/icons' / '*.png'))
             )
         )
