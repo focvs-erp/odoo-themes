@@ -3,6 +3,12 @@ body {
   font-family: 'Poppins', sans-serif !important;
   background-color: #f8f8fb;
 }
+
+.o_list_view .o_optional_columns_dropdown_toggle {
+  color: #556ee6;
+  z-index: 1000;
+}
+
 a {
   color: $primary_accent;
 }

@@ -16,20 +16,23 @@
 				<img src="/web/binary/company_logo" class="logo_img" />
 			</div>
 			<h6 class="sidebar_head">MENU</h6>
-			<ul class="sidebar_menu">
-				<t t-foreach="widget.getApps()" t-as="app">
-					<li>
-						<a role="menuitem" t-attf-href="#menu_id=#{app.menuID}" class="nav-link"
-							t-att-data-menu-id="app.menuID" t-att-data-menu-xmlid="app.xmlID"
-							t-att-data-action-id="app.actionID">
-							<img class="sidebar_img" t-attf-src="data:image/png;base64,#{app.web_icon_data}" />
-							<span class="sidebar_app_name">
-								<t t-esc="app.name" />
-							</span>
-						</a>
-					</li>
-				</t>
-			</ul>
+
+			<div class="sidebar_scrollbar">
+				<ul class="sidebar_menu">
+					<t t-foreach="widget.getApps()" t-as="app">
+						<li>
+							<a role="menuitem" t-attf-href="#menu_id=#{app.menuID}" class="nav-link"
+								t-att-data-menu-id="app.menuID" t-att-data-menu-xmlid="app.xmlID"
+								t-att-data-action-id="app.actionID">
+								<img class="sidebar_img" t-attf-src="data:image/png;base64,#{app.web_icon_data}" />
+								<span class="sidebar_app_name">
+									<t t-esc="app.name" />
+								</span>
+							</a>
+						</li>
+					</t>
+				</ul>
+			</div>
 		</div>
 	</t>
 </templates>
