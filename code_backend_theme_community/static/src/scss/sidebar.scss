@@ -10,6 +10,13 @@
     scrollbar-width: none;  /* Hide scrollbar for Firefox */
     z-index: 999;
 }
+
+.sidebar_scrollbar{
+    overflow-y: scroll;   
+    width: 190px;
+    height: 500px;
+} 
+
 #sidebar_panel::-webkit-scrollbar {
     display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }
