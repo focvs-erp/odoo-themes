@@ -30,7 +30,7 @@
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
-    "depends": ['base', 'web_enterprise', 'web', 'activity_theme', 'ax4b_title'],
+    "depends": ['base', 'web_enterprise', 'web', 'ax4b_title'],
     "data": [
         'views/assets.xml',
         'views/icons.xml',
